@@ -1,5 +1,5 @@
 {
-  "name": "yuraplohov/laravel-example",
+  "name": "jerex/shop",
   "description": "Laravel package example",
   "license": "MIT",
   "authors": [
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Yuraplohov\\LaravelExample\\": "src/"
+      "Jerex\\Shop\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Yuraplohov\\LaravelExample\\Test\\": "tests/"
+      "Jerex\\Shop\\Test\\": "tests/"
     }
   },
   "scripts": {
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Yuraplohov\\LaravelExample\\Providers\\EloquentFilterServiceProvider"
+        "Jerex\\Shop\\Providers\\EloquentFilterServiceProvider"
       ]
     }
   }

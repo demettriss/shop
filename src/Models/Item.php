@@ -1,6 +1,6 @@
 <?php
 
-namespace Yuraplohov\LaravelExample\Models;
+namespace Jerex\Shop\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
